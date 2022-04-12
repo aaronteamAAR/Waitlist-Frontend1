@@ -1,0 +1,116 @@
+html{
+
+
+}
+:not(#svgbg, section, .logo__grasp)body{
+	text-align: center;
+}
+section{
+	text-align: left;
+	position: relative;
+	margin-top: -3.1em;
+	margin-left: 3.4em;
+	font-weight: 800;
+	font-size: 24px;
+	color: black;
+	font-family: 'Fredoka', sans-serif;
+}
+
+#headermiddle{
+	text-align: center;
+	font-weight: 800;
+	font-size: 38px;
+	color: black;
+	font-family: 'Sora', sans-serif;
+
+}
+
+#pmiddle{
+	text-align: center;
+   font-weight: 400;
+   color: ash;
+   font-family: 'Sora', sans-serif;
+}
+b{
+	color: limegreen;
+}
+#btnmid
+{
+	text-align: center;
+	color: black;
+	font-family: 'Fredoka', sans-serif;
+
+
+}
+#inmid{
+    -webkit-appearance: none
+    appearance: none;
+	border: 0;
+	padding: 16px ;
+    color: black;
+	font-family: 'Fredoka', sans-serif;
+}
+.inputs__get{
+	text-align: center;
+      margin: auto;
+  width: auto;
+}
+.logo__grasp{
+	position: relative;
+	max-height: 7em;
+	max-width: 7em;
+    border-color: limegreen;
+
+}
+.waitlist__main{
+	margin-top: 10em;
+}
+
+.twitter__logo{
+
+	margin-left: 88vw;
+	margin-top: -6vw;
+}
+#svgbg{
+	position: fixed;
+
+	bottom: 17;
+
+}
+
+button {
+ background: limegreen;
+ font-family: inherit;
+ padding: 0.6em 1.3em;
+ font-weight: 900;
+ font-size: 18px;
+ border: 1px solid black;
+ border-radius: 0.4em;
+ box-shadow: 0.1em 0.1em;
+}
+
+button:hover {
+ transform: translate(-0.05em, -0.05em);
+ box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+ transform: translate(0.05em, 0.05em);
+ box-shadow: 0.05em 0.05em;
+}
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
